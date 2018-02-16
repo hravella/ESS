@@ -19,6 +19,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './registration/registration.component';
 import { ClarityModule } from '@clr/angular';
 import { TimesheetComponent } from './timesheet/timesheet.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     imports: [
@@ -35,7 +37,9 @@ import { TimesheetComponent } from './timesheet/timesheet.component';
         HomeComponent,
         LoginComponent,
         RegisterComponent,
-        TimesheetComponent
+        TimesheetComponent,
+        HeaderComponent,
+        FooterComponent
     ],
     providers: [
         AuthGuard,
